@@ -1,61 +1,63 @@
-# Faiz Malik — Developer Portfolio
+# Faiz Malik | Developer Portfolio
 
-Personal portfolio for the **AWS Student Builder Challenge 2026**. Plain HTML, CSS and JavaScript: no build step, no backend, no paid APIs.
+Welcome to my personal developer portfolio, built for the AWS Student Builder Challenge 2026.
 
-**Live URL:** _add after Amplify deployment_
-**Repository:** _add your GitHub repo link_
+🌐 **Live Website:** https://main.d36sentlvyxvy4.amplifyapp.com
 
-## Features
-- Sections: Hero, About, Tech Superpowers, Experience, Projects, Education and Coursework, Contact, Footer
-- **FAIZ.DEV — Developer Superpower Terminal**: `help`, `about`, `skills`, `projects`, `experience`, `education`, `contact`, `clear`, with Enter, ↑/↓ history, Tab autocomplete, clickable quick buttons and screen-reader friendly output
-- Mobile-first responsive layout, keyboard accessible, reduced-motion support, SEO and Open Graph metadata, SVG favicon
+## 👨‍💻 About Me
 
-## Project structure
-```
-index.html      page markup and SEO metadata
-styles.css      design system and responsive layout
-script.js       navigation, reveal animations, terminal
-assets/         favicon.svg
-amplify.yml     AWS Amplify build settings (static, no build)
-docs/           challenge submission checklist and AWS notes
-```
+I'm Faiz Malik, an MCA student and Full Stack Developer passionate about building practical web applications and learning cloud technologies.
 
-## Run locally
-Open `index.html` in a browser, or serve the folder:
-```bash
-python3 -m http.server 8080   # then visit http://localhost:8080
-```
+I enjoy solving problems through programming and exploring modern development tools.
 
-## Export the source
-Download the whole `faiz-portfolio` folder (zip it if needed). Everything needed is inside it.
+## 🚀 Tech Stack
 
-## Upload to GitHub
-```bash
-cd faiz-portfolio
-git init
-git add .
-git commit -m "Add portfolio"
-git branch -M main
-git remote add origin https://github.com/faizmalikdev/<your-repo>.git
-git push -u origin main
-```
-Create the empty repository on github.com first (public, no README).
+- HTML5
+- CSS3
+- JavaScript
+- Responsive Web Design
+- Git & GitHub
+- AWS Amplify
 
-## Deploy with AWS Amplify Hosting
-1. Sign in to the AWS Console and open **AWS Amplify**.
-2. Choose **Create new app** → **GitHub** → authorize and select your repository and the `main` branch.
-3. Amplify detects `amplify.yml`. Keep the defaults (no build command, output root `/`).
-4. Choose **Save and deploy**. When it finishes, copy the `https://main.xxxx.amplifyapp.com` URL.
-5. Paste that URL at the top of this README and into your challenge submission.
+## 💡 Featured Projects
 
-Every `git push` to `main` redeploys automatically.
+### 1. SyncMeet
+A real-time video conferencing application.
 
-## AWS services used
-| Service | Purpose |
-|---|---|
-| AWS Amplify Hosting | Hosts the static site, HTTPS, CI/CD from GitHub |
+Technologies: React, Node.js, Express, WebRTC, Socket.IO.
 
-(Update this table if you add more services. See `docs/SUBMISSION.md`.)
+### 2. AirNest
+An Airbnb-inspired property listing application.
 
-## Content note
-All details come from Faiz Malik's resume. AWS and DevOps are listed as learning interests only.
+Technologies: MongoDB, Express, React, Node.js.
+
+## ⚡ Interactive Developer Terminal
+
+This portfolio includes an interactive terminal where visitors can explore information about me using commands.
+
+Type `help` to discover available commands.
+
+## ☁️ AWS Deployment
+
+The portfolio is hosted using AWS Amplify.
+
+Deployment workflow:
+
+1. Developed locally using VS Code.
+2. Version controlled using Git.
+3. Source code hosted on GitHub.
+4. Connected GitHub repository to AWS Amplify.
+5. Deployed the website using AWS Amplify Hosting.
+
+## 🎯 Challenge
+
+Created as part of the AWS Student Builder Challenge 2026.
+
+## 📬 Connect With Me
+
+- GitHub: https://github.com/faizmalikdev
+- LinkedIn: https://linkedin.com/in/faizmalikdev
+
+---
+
+⭐ Thanks for visiting my portfolio!
